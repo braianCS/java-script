@@ -1,0 +1,41 @@
+/* Este arquivo já está pronto. Você não precisa (e não deve) editar este CSS.
+   Seu JavaScript deve apenas ADICIONAR uma destas classes ao elemento #resultado,
+   usando resultado.classList.add("nomeDaClasse"). */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.caixa {
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid #ccc;
+}
+
+.abaixo {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+  color: #0d47a1;
+}
+
+.normal {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+  color: #1b5e20;
+}
+
+.sobrepeso {
+  background-color: #fff8e1;
+  border-color: #ffb300;
+  color: #8d5c00;
+}
+
+.obesidade {
+  background-color: #ffebee;
+  border-color: #e53935;
+  color: #8e0000;
+}
